@@ -32,13 +32,16 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#destination">Destination</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#testimonial">testimonies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             
 
@@ -185,7 +188,7 @@
     <!--End of destination card-->
 
     <!--why must choose us-->
-    <div class="container-fluid bg-body-tertiary">
+    <div class="container-fluid bg-body-tertiary" id="about">
 
     <h1 class="text-center my-5">Why Must <span class="text-success">Choose Us</span> </h1>
     <p class = "text-center m-0">With over <span class="text-success">10 years </span> experience in the travel industry, our team of <br> dedicated travel experts knows the ins and outs of creating unforgettable travel experiences. <br> We’ve traveled the world, explored hidden gems, and built strong relationships <br> with local partners to ensure you receive the best service possible</p>
@@ -229,7 +232,78 @@
   </div>
       <!--End of why must choose us-->
 
-      <!--footer-->
+      <!--testimonial-->
+      <h1 class="text-center my-5 text-success" id="testimonial">What People Say</h1>
+      <p class="text-center">Discover what our satified customers have to say about their experience with <span class="text-success">Movic</span>-Travel.</p>
+
+      <div class="row container-fluid my-5 justify-content-center column-gap-2">
+        <div class="card p-3" style="width: 18rem; border-top: 3px solid green;">
+          <img src="./assets/testimonial-img/bootstrap-testimonial-img-1.jpg" class="card-img-top img-thumbnail" alt="..." style="border-radius: 50%; width: 40%; height: 6rem;">
+          <div class="card-body">
+            <h5 class="card-title">Sarah Johnson</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Travel Enthusiast</h6>
+            <p class="card-text my-4">Movic Travel transformed my dream vacation into reality! Every detail was perfectly planned, allowing me to relax and enjoy every moment. Highly recommend!.</p>
+          </div>
+          
+        </div>
+        <div class="card bg-success text-light p-3" style="width: 18rem;">
+          <img src="./assets/testimonial-img/bootstrap-testimonial-img-2.jpg" class="card-img-top img-thumbnail" alt="..." style="border-radius: 50%; width: 40%; height: 6rem;">
+          <div class="card-body">
+            <h5 class="card-title">Emily Carter</h5>
+            <h6 class="card-subtitle mb-2 text-light">Adventure Seeker</h6>
+            <p class="card-text my-4">Thanks to Movic Travel, I explored breathtaking destinations I never thought possible. Their personalized service made all the difference. I can't wait for my next trip!.</p>
+          </div>
+        </div>
+        <div class="card p-3" style="width: 18rem; border-top: 3px solid green;">
+          <img src="./assets/testimonial-img/bootstrap-testimonial-img.jpg" class="card-img-top img-thumbnail" alt="testimonial" style="border-radius: 50%; width: 40%; height: 6rem;">
+          <div class="card-body">
+            <h5 class="card-title">Jessica Lee</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Family Traveler</h6>
+            <p class="card-text my-4">Movic Travel made our family vacation unforgettable! They catered to our needs and created a seamless experience. We made memories that will last a lifetime!</p>
+          </div>
+        </div>
+
+        <div class="card bg-success text-light p-3" style="width: 18rem;">
+          <img src="./assets/testimonial-img/bootstrap-testimonial-img-3.jpg" class="card-img-top img-thumbnail" alt="..." style="border-radius: 50%; width: 40%; height: 6rem;">
+          <div class="card-body">
+            <h5 class="card-title">Michael Smith</h5>
+            <h6 class="card-subtitle mb-2 text-light">Bussiness Traveler</h6>
+            <p class="card-text my-4">As a frequent traveler, I appreciate the efficiency and professionalism of Movic Travel. They handle everything, allowing me to focus on my work. Truly exceptional service!.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End of testimonial-->
+
+    <!--contact-->
+    <h1 class="text-success text-center my-4" id="contact">Contact Us</h1>
+    <p class="text-center">Have a question or need assistance? Contact us today and we'll be happy to help!</p>
+    
+    <div class="container">
+    <div class="row">
+      <div class="col">
+        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+      </div>
+    </div> 
+    <div class="row my-2">
+      <div class="col">
+        <input type="email" class="form-control" placeholder="Email" aria-label="Email">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Phone" aria-label="Phone">
+      </div>
+    </div>
+    <div class="row my-2">
+      <div class="col">
+        <textarea class="form-control" placeholder="Message" aria-label="With textarea" style="height: 10rem;"></textarea>
+      </div>
+    </div>
+    <button class="btn btn-success my-2">Submit</button>
+    </div>
+  
       <!-- Footer -->
 <footer class="text-center text-lg-start bg-body-tertiary text-muted">
   <!-- Section: Social media -->
@@ -328,7 +402,7 @@
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p><i class="fas fa-home me-3"></i> Abacha Rd, Abuja 900104, NIGERIA</p>
           <p>
             <i class="fas fa-envelope me-3"></i>
             ibrahimabdulkerim001@gmail
