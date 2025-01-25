@@ -160,10 +160,155 @@
       <hr class="my-4">
       <h2 class="text-success">Travel Details</h2>
 
+     
+      <div class="row my-2">
+        <div class="col">
+          <label for="inputState" class="form-label">Travel date</label>
+          <input type="date" class="form-control" placeholder="date" aria-label="date">
+        </div>
+        <div class="col">
+          <label for="inputState" class="form-label">Return date</label>
+          <input type="date" class="form-control" placeholder="date" aria-label="date">
+        </div>
+      </div>
 
-      <button class="btn btn-success my-2">Book</button>
+        <div class="row my-4">
+              
+        <div class="col">
+          <label for="inputState" class="form-label">Departure City</label>
+          <input type="text" class="form-control" placeholder="Departure City" aria-label="text">
+        </div>
+        <div class="col">
+          <label for="inputState" class="form-label">Destination City</label>
+          <input type="text" class="form-control" placeholder="Destination City" aria-label="text">
+        </div>
+      </div>
+
+      <div class="row my-4">
+              
+        <div class="col">
+          <label for="inputState" class="form-label">Realistic Budget $</label>
+          <input type="number" class="form-control" placeholder="$" value="$" aria-label="number">
+        </div>
+        <div class="col my-2">
+          <label for="inputState" class="form-label">From which airport would you like to leave from?</label>
+          <select id="inputState" class="form-select" name="country">
+            <option selected>Choose Your Route</option>
+            <option value="US">Los Angeles International Airport (LAX)</option>
+            <option value="CA">Toronto Pearson International Airport (YYZ)</option>
+            <option value="GB">Manchester Airport (MAN)</option>
+            <option value="AU">Sydney Kingsford Smith Airport (SYD)</option>
+            <option value="FR">Charles de Gaulle Airport (CDG)</option>
+            <option value="CH">Beijing Capital International Airport (PEK)</option>
+          </select>
+        </div>
+      </div>
+      <hr class="my-4">
+      <label for="inputState" class="form-label">What type of trip are you planning?</label>
+    <div class="row">
+      <div class="col-md-7 my-2">
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+          <label class="form-check-label" for="flexSwitchCheckDefault">Honeymoon</label>
+        </div>
+      </div>
+       <div class="col-md-7 my-2">
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+          <label class="form-check-label" for="flexSwitchCheckDefault">Bussiness</label>
+        </div>
+      </div>
+      <div class="col-md-7 my-2">
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+          <label class="form-check-label" for="flexSwitchCheckDefault">Family Vacation</label>
+        </div>
+      </div>
+       <div class="col-md-7 my-2">
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+          <label class="form-check-label" for="flexSwitchCheckDefault"> Cruise</label>
+        </div>
+      </div>
+      <div class="col-md-7 my-2">
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+          <label class="form-check-label" for="flexSwitchCheckDefault"> Gateway</label>
+        </div>
+      </div>
+      <div class="col-md-7 my-2">
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+          <label class="form-check-label" for="flexSwitchCheckDefault"> Other</label>
+        </div>
+      </div>
+      <hr class="my-4">
+      <label for="inputState" class="form-label">Other Services Needed</label>
+      <div class="col-md-7 my-2">
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+          <label class="form-check-label" for="flexSwitchCheckDefault"> Flight Only</label>
+        </div>
+      </div>
+      <div class="col-md-7 my-2">
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+          <label class="form-check-label" for="flexSwitchCheckDefault"> Hotel/Resorts</label>
+        </div>
+      </div>
+      <div class="col-md-7 my-2">
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+          <label class="form-check-label" for="flexSwitchCheckDefault"> Rental Car</label>
+        </div>
+      </div>
+      <div class="col-md-7 my-2">
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+          <label class="form-check-label" for="flexSwitchCheckDefault"> Entertainment</label>
+        </div>
+      </div>
+
+      <hr class="my-4">
+      <label for="inputState" class="form-label">Agent Retainer Fee</label>
+      <div class="col-md-7 my-2">
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckCheacked" checked>
+          <label class="form-check-label" for="flexSwitchCheckDefault"> $100</label>
+        </div>
+
+      </div>
+    <hr class="my-4">
+    <label for="inputState" class="form-label">Credit Card</label>
+    <div class="row">
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Card Number" aria-label="text">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Card Holder Name" aria-label="text">
+      </div>
+
+        
+      <label for="inputState" class="form-label text-center my-5">Term and Condition</label>
+      <div class="container">
+      <p>The non-refundable retainer fee is good for ONLY 48 hours after itinerary has been sent.</p>
+
+        <p > The non-refundable retainer fee includes:</p>
+        <ul >
+          <li>Up to 2 itinerary and package searches to find the best quote that is within your budget</li>
+          <li>pre-trip travel tips and advisories</li>
+          <li>email/phone assistance during your travel</li>
+          <li>post-trip follow-up.</li> 
+        </ul>  
+       <p> Its not just about finding you a great deal but its about creating you a memorable travel experience that leaves you satisfied, but also eager to travel more. I take pride in my work and the happiness and satisfaction of my travelers is of the utmost importance to me.</p>
+        <p>By submitting this form, you are agreeing to the terms and conditions of the non-refundable retainer fee.</p>
+        </div>
+    </div>
+    
+      <button class="btn btn-success my-2">Submit</button>
       </div>
     
+
 
       <script src="../Bootstrap/js/bootstrap.js"></script>
       <script src="../Bootstrap/js/jquery.js"></script>
